@@ -41,8 +41,8 @@ public class MainLayout extends AppLayout {
     }
 
     private void addDrawerContent() {
-        H1 appName = new H1("ClinicalPAII");
-        appName.addClassNames(LumoUtility.FontSize.LARGE, LumoUtility.Margin.NONE);
+        H1 appName = new H1("SISTEMA CLINICA GRUPO 3");
+        appName.addClassNames(LumoUtility.FontSize.MEDIUM, LumoUtility.Margin.NONE);
         Header header = new Header(appName);
 
         Scroller scroller = new Scroller(createNavigation());

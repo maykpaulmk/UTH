@@ -11,6 +11,7 @@ public class Citas extends AbstractEntity {
     private String paciente;
     private String direccion;
     private String telefono;
+    private String detalle;
 
     public Integer getIdcita() {
         return idcita;
@@ -36,11 +37,18 @@ public class Citas extends AbstractEntity {
     public void setDireccion(String direccion) {
         this.direccion = direccion;
     }
-    public String getTelefono() {
-        return telefono;
-    }
-    public void setTelefono(String telefono) {
-        this.telefono = telefono;
-    }
+  
+	public String getDetalle() {
+		return detalle;
+	}
+	public void setDetalle(String detalle) {
+		this.detalle = detalle;
+	}
+	public String getTelefono() {
+		return telefono;
+	}
+	public void setTelefono(String telefono) {
+		this.telefono = telefono;
+	}
 
 }
