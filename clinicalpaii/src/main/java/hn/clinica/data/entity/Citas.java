@@ -6,17 +6,17 @@ import java.time.LocalDateTime;
 @Entity
 public class Citas extends AbstractEntity {
 
-    private Integer idcita;
+    private String idcita;
     private LocalDateTime fecha;
     private String paciente;
     private String direccion;
     private String telefono;
     private String detalle;
 
-    public Integer getIdcita() {
+    public String getIdcita() {
         return idcita;
     }
-    public void setIdcita(Integer idcita) {
+    public void setIdcita(String idcita) {
         this.idcita = idcita;
     }
     public LocalDateTime getFecha() {
